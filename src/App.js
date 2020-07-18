@@ -110,7 +110,7 @@ function App() {
                 <div className="img-container">
                 </div>
                 <div className="img-overlay">
-                  {value.promoted && <div className="ribbon-promoted"></div>}
+                  {value.promoted && <div className="ribbon-promoted text-light">Promoted</div>}
                   <div className="rectangle-3 text-light">
                     <div className="very-good">{value.rating}/5
                   <br /> <span className="small-font" style={{ fontWeight: "normal" }}>{value.rating_remarks}</span></div>
