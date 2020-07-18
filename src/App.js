@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import { collegesData } from './colleges.js'
 
@@ -99,13 +99,6 @@ function App() {
       }
     };
   }, [element]);
-
-  const renderRating = (value) => {
-    [...Array(5).keys()].map((v, i) => {
-      console.log(v)
-      return (<i className="fa fa-stars" />)
-    })
-  }
   return (
     <div >
       <h4 style={{ marginLeft: "80px" }}>Colleges in North India</h4>
